@@ -12,7 +12,9 @@ public class Main {
 
 	private void run() {
 		
-		System.out.println("Orelly");
+		Person p = new Person();
+		
+		
 		
 	}
 
