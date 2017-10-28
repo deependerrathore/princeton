@@ -8,6 +8,14 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
+	private Person mom;
+	
+	public Person getMom() {
+		return mom;
+	}
+	public void setMom(Person mom) {
+		this.mom = mom;
+	}
 	public int getAge() {
 		return age;
 	}

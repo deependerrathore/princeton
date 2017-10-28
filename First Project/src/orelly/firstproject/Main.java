@@ -1,3 +1,7 @@
+/*
+ * Primitive type reside in stack
+ * Object reside in Heap and they can reference to another object in Heap
+ */
 package orelly.firstproject;
 
 public class Main {
@@ -16,15 +20,15 @@ public class Main {
 		p.setFirstName("Deepender");
 		p.setLastName("Rathore");
 		p.setAge(25);
-		int i = 25;
-		double d = 25.25;
-		boolean b = true;
-		char c = 'D';
-		//c = b; not allowed
-		//b = c;
-		i = (int) d;
 		
-		System.out.println(p.getFullName() + " " + i);
+		Person mom = new Person();
+		mom.setFirstName("Lata");
+		mom.setLastName("Kanwar");
+		
+		p.setMom(mom);
+		
+		
+		System.out.println(p.getFullName() + " Mom: " + p.getMom().getFullName());
 		
 		System.out.println(p.getFullName() +" "+ p.getAge());
 		
