@@ -27,14 +27,11 @@ public class Main {
 		
 		p.setMom(mom);
 		
-		
-		while(p.getAge() < 42) {
-			
-			
+		p.setAge(42);
+		do{
 			System.out.println(p.getFullName() +" Age =  "+ p.getAge());
-			
 			p.birthday();
-		}
+		}while(p.getAge() < 42) ;
 		
 		
 	}
