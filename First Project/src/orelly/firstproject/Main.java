@@ -31,7 +31,7 @@ public class Main {
 		while(p.getAge() < 52){
 			if(p.getAge() == 50 || p.getAge() == 45) {
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
-					
+				break;
 			}
 			p.birthday();
 		};
