@@ -32,19 +32,14 @@ public class Main {
 			switch(p.getAge()) {
 			case 45:
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
+				break;
 			case 50:
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
 				break;
 			}
 			p.birthday();
 		};
-		
-		/*
-		 * 	Deepender Rathore Age =  45
-			Deepender Rathore Age =  45
-			Deepender Rathore Age =  50
-		 */
-		
+			
 	}
 
 }
