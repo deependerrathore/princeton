@@ -34,6 +34,7 @@ public class Main {
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
 			case 50:
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
+				break;
 			}
 			p.birthday();
 		};
