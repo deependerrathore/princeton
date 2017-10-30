@@ -28,10 +28,13 @@ public class Main {
 		p.setMom(mom);
 		
 		p.setAge(42);
-		do{
-			System.out.println(p.getFullName() +" Age =  "+ p.getAge());
+		while(p.getAge() < 52){
+			if(p.getAge() == 50 || p.getAge() == 45) {
+				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
+					
+			}
 			p.birthday();
-		}while(p.getAge() < 42) ;
+		};
 		
 		
 	}
