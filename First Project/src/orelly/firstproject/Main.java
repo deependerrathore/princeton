@@ -28,12 +28,13 @@ public class Main {
 		p.setMom(mom);
 		
 		
-		for(int i = 0;i<10;i++) {
+		for(int i = 0;i!=9;i++) { //we have to take care of the condition as this loop will till infinity
 			
 			
 			//System.out.println(p.getFullName() + " Mom: " + p.getMom().getFullName());
 			
 			System.out.println(p.getFullName() +" "+ p.getAge() +" i = "+ i );
+			i++;
 			p.birthday();
 		}
 		
