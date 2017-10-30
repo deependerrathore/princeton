@@ -28,11 +28,11 @@ public class Main {
 		p.setMom(mom);
 		
 		p.setAge(42);
-		while(p.getAge() < 52){
+		AGE: while(p.getAge() < 52){
 			switch(p.getAge()) {
 			case 45:
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
-				break;
+				break AGE; //this will break out of the named loop
 			case 50:
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
 				break;
