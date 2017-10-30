@@ -38,5 +38,8 @@ public class Person {
 	public String getFullName() {
 		return firstName + " " + lastName;
 	}
+	public void birthday() {
+		age++;
+	}
 	
 }

@@ -28,9 +28,15 @@ public class Main {
 		p.setMom(mom);
 		
 		
-		System.out.println(p.getFullName() + " Mom: " + p.getMom().getFullName());
+		for(int i = 0;i<10;i++) {
+			
+			
+			//System.out.println(p.getFullName() + " Mom: " + p.getMom().getFullName());
+			
+			System.out.println(p.getFullName() +" "+ p.getAge() +" i = "+ i );
+			p.birthday();
+		}
 		
-		System.out.println(p.getFullName() +" "+ p.getAge());
 		
 	}
 
