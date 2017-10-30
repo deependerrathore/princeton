@@ -29,9 +29,11 @@ public class Main {
 		
 		p.setAge(42);
 		while(p.getAge() < 52){
-			if(p.getAge() == 50 || p.getAge() == 45) {
+			switch(p.getAge()) {
+			case 45:
 				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
-				break;
+			case 50:
+				System.out.println(p.getFullName() +" Age =  "+ p.getAge());
 			}
 			p.birthday();
 		};
