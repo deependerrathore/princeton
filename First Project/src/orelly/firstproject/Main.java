@@ -11,7 +11,14 @@ public class Main {
 		Main m = new Main();
 		
 		m.run(); //we can only call static method from static context , for non-static method to call we need a object
+		
+		m.exampleMethod();
+		
+	}
 
+	private void exampleMethod() {
+		throw new UnsupportedOperationException();
+		
 	}
 
 	private void run() {
